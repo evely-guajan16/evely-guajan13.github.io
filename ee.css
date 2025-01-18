@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('colo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    text-align: center;
+    color: rgb(24, 22, 22);
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.texto {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.texto h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.texto ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.imagen-y-calculadora {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen {
+    margin-bottom: 20px;
+}
+
+.calculadora {
+    background-color: rgba(196, 8, 8, 0.349);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.calculadora input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 1rem;
+}
+
+.calculadora button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #87c046c2;
+    color: rgba(21, 22, 22, 0.815);
+    border: 5px;
+
+    font-size: 1.2rem;
+    width: 80%;
+}
+
+#resultados {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.boton-regreso {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-regreso a {
+
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: #0fadc262;
+    color: rgb(58, 55, 55);
+    border-radius: 5px;
+
+}
+
+.boton-regreso a:hover {
+    background-color: #555;
+}

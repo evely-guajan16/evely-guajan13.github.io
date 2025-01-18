@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Círculo</title>
+    <link rel="icon" href="sos.ico" type="image/x-icon">
+    <link rel="stylesheet" href="cero.css">
+    <style>
+        body {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>El Círculo 🟠</h1>
+        <p>Descubre todo sobre el círculo, una figura geométrica fundamental.</p>
+    </header>
+    <div class="contenido">
+        <section class="texto">
+            <h2>¿Qué es un Círculo?</h2>
+            Un círculo es una figura geométrica plana formada por todos los puntos de un plano que están a una distancia
+            fija, llamada radio, de un punto central. El círculo es una figura muy importante en geometría, ya que tiene
+            simetría radial.
+            <h2>Propiedades del círculo:</h2>
+            Radio: El radio es la distancia desde el centro del círculo hasta cualquier punto de su circunferencia.
+            Diámetro: El diámetro es el doble del radio. Se extiende de un lado al otro del círculo pasando por su
+            centro.
+            Circunferencia: Es la longitud del borde del círculo.
+            Áreas y perímetros: El círculo es una de las pocas figuras que tiene un área que depende solo del radio y no
+            de su forma.
+            <h3>Área: El área de un círculo se calcula usando la fórmula:</h3>
+            𝐴 = 𝜋 * 𝑟²
+            Donde 𝑟 es el radio del círculo.
+            <h3>Circunferencia: La circunferencia de un círculo se calcula usando la fórmula:</h3>
+            𝐶 = 2 * 𝜋 * 𝑟
+            Donde 𝑟 es el radio del círculo.
+            <h2>Aplicaciones de los círculos:</h2>
+            Los círculos están presentes en muchas áreas de la vida cotidiana y la ciencia. Por ejemplo, las ruedas de
+            los vehículos, las órbitas planetarias, los relojes, los platos y más.
+            <h2>Contribuciones de Arquímedes sobre los círculos:</h2>
+            Arquímedes fue uno de los matemáticos más importantes en el estudio de los círculos. Estableció un método
+            para aproximar el valor de 𝜋 y descubrió muchas propiedades interesantes sobre los círculos, incluyendo su
+            relación con el área y la circunferencia.
+        </section>
+        <section class="imagen-y-calculadora">
+            <div class="imagen">
+                <img src="pi.png" alt="Círculo" style="width: 150%; max-width: 500px;">
+            </div>
+            <div class="calculadora">
+                <h3>Calculadora de área y circunferencia del círculo</h3>
+                <label for="radio">Radio (en cm):</label>
+                <input type="number" id="radio" placeholder="Introduce el radio del círculo">
+                <button onclick="calcular()">Calcular</button>
+                <button onclick="borrarCampos()">Borrar</button>
+                <div id="resultados">
+                    <p><strong>Área:</strong> <span id="area">-</span> cm²</p>
+                    <p><strong>Circunferencia:</strong> <span id="circunferencia">-</span> cm</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="boton-regreso">
+        <a href="deverr.html" class="regresar-btn">Regresar a la página de inicio</a>
+    </div>
+    <script src="lov.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Cono</title>
+    <link rel="stylesheet" href="ee.css">
+</head>
+
+<body>
+    <header>
+        <h1>El Cono 🟠</h1>
+        <p>Descubre todo sobre el cono, una figura geométrica fundamental en la geometría.</p>
+    </header>
+
+    <div class="contenido">
+        <section class="texto">
+            <h2>¿Qué es un Cono?</h2>
+            Un cono es una figura geométrica tridimensional que consta de una base circular y una punta (o vértice)
+            llamada vértice del cono. La base es un círculo, y las líneas que conectan el vértice con cada punto en la
+            circunferencia forman la superficie lateral del cono.
+
+            <h2>Propiedades del cono:</h2>
+            - **Base circular**: La base del cono es un círculo.
+            - **Altura**: La altura es la distancia desde el vértice hasta el centro de la base.
+            - **Radio**: El radio es la distancia desde el centro de la base hasta cualquier punto de la circunferencia.
+            - **Generatriz**: La generatriz es la línea inclinada que va desde el vértice hasta cualquier punto de la
+            circunferencia de la base.
+            - **Superficie lateral**: La superficie lateral es una porción de un círculo, y se curva hacia el vértice.
+
+            <h3>Fórmulas:</h3>
+            <h4>Área superficial:</h4>
+            La fórmula para calcular el área superficial total de un cono es:
+            <p>𝐴 = πr(r + g)</p>
+            Donde:
+            - **r** es el radio de la base.
+            - **g** es la generatriz del cono.
+
+            <h4>Volumen:</h4>
+            La fórmula para calcular el volumen de un cono es:
+            <p>V = (1/3)πr²h</p>
+            Donde:
+            - **r** es el radio de la base.
+            - **h** es la altura del cono.
+
+            <h2>Aplicaciones del cono:</h2>
+            El cono tiene diversas aplicaciones en la vida real, por ejemplo:
+            - En arquitectura, las estructuras de conos se utilizan en techos cónicos.
+            - Los conos de helado son un ejemplo clásico de la figura geométrica en la vida cotidiana.
+            - También es utilizado en la ingeniería para diseños de embudos y chimeneas.
+
+            <br>
+            <h2>Contribuciones de la geometría sobre el cono:</h2>
+            El cono ha sido estudiado ampliamente en geometría, y los matemáticos antiguos como Euclides ya utilizaban
+            el cono para entender las propiedades de las superficies y los volúmenes.
+
+            En la actualidad, el estudio de los conos se aplica en diversas áreas como la ingeniería, arquitectura y
+            ciencias aplicadas.
+
+        </section>
+
+        <section class="imagen-y-calculadora">
+            <div class="imagen">
+                <img src="area.jpg" alt="Cono" style="width: 150%; max-width: 500px;">
+            </div>
+
+            <div class="calculadora">
+                <h3>Calculadora de volumen y superficie del cono</h3>
+                <label for="radio">Radio de la base (en cm):</label>
+                <input type="number" id="radio" placeholder="Introduce el radio de la base">
+
+                <label for="altura">Altura del cono (en cm):</label>
+                <input type="number" id="altura" placeholder="Introduce la altura del cono">
+
+                <label for="generatriz">Generatriz (en cm):</label>
+                <input type="number" id="generatriz" placeholder="Introduce la generatriz">
+                <button onclick="calcularCono()">Calcular</button>
+                <button onclick="borrarCampos()">Borrar</button>
+                <div id="resultados">
+                    <p><strong>Volumen:</strong> <span id="volumen">-</span> cm³</p>
+                    <p><strong>Área superficial:</strong> <span id="area">-</span> cm²</p>
+                </div>
+            </div>
+
+            <br>
+            <div class="imagen">
+                <img src="volumen.jpg" alt="Cono" style="width: 100%; max-width: 400px;">
+            </div>
+        </section>
+    </div>
+
+    <div class="boton-regreso">
+        <a href="deverr.html" class="regresar-btn">Regresar a la página de inicio</a>
+    </div>
+
+    <script src="seeee.js"></script>
+</body>
+
+</html>

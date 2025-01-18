@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Brush Script, Zapfino, Lucida Handwriting;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+}
+
+.logo {
+    margin: 20px auto;
+}
+
+.intro {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.grid-item {
+    width: 90%;
+    padding: 20px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+}
+
+.grid-item h3 {
+    text-align: left;
+}
+
+.grid-item p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.grid-item img {
+    margin: 10px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.back-btn {
+    color: aqua;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+table img {
+    border-radius: 50%;
+}

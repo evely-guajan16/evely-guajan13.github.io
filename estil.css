@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    margin: 20px;
+}
+
+
+.pri {
+    background-color: #1f90bd2d;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Lobster', cursive;
+    ;
+}
+
+
+.las,
+.lam,
+.los {
+    background-color: #45085e;
+    margin: 8px 0;
+    padding: 5px;
+    border-radius: 4px;
+    height: 300px;
+    width: 860;
+    align-content: center;
+    font-family: 'Lobster', cursive;
+    ;
+
+
+}
+
+
+.las img {
+    width: 20px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.las p {
+    font-size: 14px;
+}
+
+
+.las div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-adicional {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 60px;
+    padding-left: 30px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 60px;
+    padding-left: 30px;
+}

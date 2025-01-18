@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Triángulo</title>
+    <link rel="icon" href="sos.ico" type="image/x-icon">
+    <link rel="stylesheet" href="seis.css">
+</head>
+
+<body>
+    <header>
+        <h1>El Triángulo 🔺</h1>
+        <p>Descubre todo sobre el triángulo, una figura geométrica fundamental.</p>
+    </header>
+
+    <div class="contenido">
+        <section class="texto">
+            <h2>¿Qué es un Triángulo?</h2>
+            Más sobre los triángulos:
+            Un triángulo es una figura geométrica plana que pertenece al grupo de los polígonos. Los triángulos tienen
+            tres lados y tres ángulos. Existen varios tipos de triángulos: equiláteros (con tres lados iguales),
+            isósceles (con dos lados iguales) y escalenos (con todos los lados diferentes).
+
+            <h2>Propiedades del triángulo:</h2>
+            Lados: Un triángulo tiene tres lados, que pueden tener diferentes longitudes.
+            Ángulos: La suma de los ángulos internos de un triángulo siempre es 180 grados.
+            <h3>Área: El área de un triángulo se calcula usando la fórmula:</h3>
+            𝐴 = (𝐵 * 𝐻) / 2
+            Donde:
+            - 𝐵 es la base del triángulo.
+            - 𝐻 es la altura del triángulo.
+
+            <h3>Perímetro: El perímetro de un triángulo se calcula sumando la longitud de sus tres lados:</h3>
+            𝑃 = 𝐴 + 𝐵 + 𝐶
+            Donde 𝐴, 𝐵 y 𝐶 son los lados del triángulo.
+            <h2>Aplicaciones de los triángulos:</h2>
+            Los triángulos son fundamentales en la geometría y en la física. Por ejemplo, en arquitectura, diseño
+            estructural, y en la teoría de la relatividad.
+
+            <h2>Contribuciones de Euclides sobre los triángulos:</h2>
+            Euclides, en su obra "Elementos", estableció importantes teoremas sobre los triángulos, como la ley de los
+            triángulos semejantes y la regla de los ángulos internos. También explicó cómo calcular áreas y perímetros
+            en su tratado de geometría.
+        </section>
+
+        <section class="imagen-y-calculadora">
+            <div class="imagen">
+                <img src="calcul.png" alt="Triángulo" style="width: 150%; max-width: 500px;">
+            </div>
+
+            <div class="calculadora">
+                <h3>Calculadora de área y perímetro del triángulo</h3>
+                <label for="base">Base
+                    <input type="number" id="base" placeholder="Introduce la base del triángulo">
+
+                    <label for="altura">Altura :</label>
+                    <input type="number" id="altura" placeholder="Introduce la altura del triángulo(cm)">
+
+                    <label for="ladoA">Lado A :
+                        <input type="number" id="ladoA" placeholder="Introduce el primer lado del triángulo(cm)">
+
+                        <label for="ladoB">Lado
+                            <input type="number" id="ladoB" placeholder="Introduce el segundo lado del triángulo(CM)">
+
+                            <label for="ladoC">Lado C :</label>
+                            <input type="number" id="ladoC" placeholder="Introduce el tercer lado del triángulo(cm)">
+                            <button onclick="calcular()">Calcular</button>
+                            <button onclick="borrarCampos()">Borrar</button>
+                            <div id="resultados">
+                                <p><strong>Área:</strong> <span id="area">-</span> cm²</p>
+                                <p><strong>Perímetro:</strong> <span id="perimetro">-</span> cm</p>
+                            </div>
+
+            </div>
+        </section>
+    </div>
+    <div class="boton-regreso">
+        <a href="deverr.html" class="regresar-btn">Regresar a la página de inicio</a>
+    </div>
+
+    <script src="sc.js"></script>
+</body>
+
+</html>
